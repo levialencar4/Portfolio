@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(black, rgb(10, 8, 26))
+}
+
+h1 {
+    color: #30c5c5;
+    font-size: 5em;
+    text-align: center;
+    
+    
+}
+
+h2 {
+    color: rgb(177, 219, 219);
+    font-size: 3em;
+    text-align: left;
+    padding-top: 1em;
+    margin-left: 1em;
+}
+
+
+
+#maindiv {
+    background-color: rgba(22, 22, 22, 0.267);
+    margin-top: 1em;
+    overflow: hidden;
+}
+
+hr {
+    margin: 1em;
+    background-color: #2fc4c4;
+    
+}
+
+#imgdiv {
+    
+    background-color: #2fc4c4;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    margin-left: max(36vw);
+
+    
+    
+    
+    
+ 
+}
+
+#buttondiv {
+    padding-top: 10%;
+    margin-bottom: -20%;
+    color: #e9ffff;
+}
+
+#pdiv {
+    margin-bottom: 5em;
+    font-size: large;
+}
+
+#pdiv :nth-child(1) {
+    font-size: 30px;
+}
+
+.btn {
+    margin-right: 2em;
+    color: black;
+    margin-top: 2em;
+}
+
+#gifimg {
+    width: 200px;
+    border-radius: 50%;
+    margin-left: 40%;
+}
+
+.gifprojectdiv {
+    font-size: large;
+    padding-left: 3em;
+    color: #2fc4c4;
+    font-weight: bold;
+    background-color: #e9ffff;
+    
+}
+
+.pclass {
+    text-align: start;
+    width: fit-content;
+    display: contents;
+}
+.pclass2 {
+    text-align: end;
+    width: fit-content;
+    display: inline-block;
+}
+
+
+#divfooter {
+ 
+    
+    color: #30c5c5;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+
+ 
+   
+    
+}
+
+.jumbotron {
+    max-width: 400px;
+    max-height: 500px;
+    background-color: #243f3f;
+    color: #30c5c5;
+    
+    
+    ;
+    
+}
+
+.jumbotron:hover {
+    background-color: #142424;
+    
+    color: rgb(158, 244, 255);
+}
+
+.projectimg {
+    max-width: 300px;
+    max-height: 300px;
+    margin-top: 10px;
+    
+    
+    
+    
+}
