@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age finder</title>
+    <link rel="stylesheet" href="AGEstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Age finder</h1>
+    </header>
+    <section>
+        <div>
+            <p>Birth Year
+            <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Gender:
+                <input type="radio" name="radsex" id="masc" checked>
+                <label for="masc">Male</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Female</label>
+            </p>
+            <p>
+               <input type="button" value="Verify" onclick="veri()">
+            </p>
+        </div>
+        <div id="res">
+            Fill out the fields above!
+        </div>
+
+    </section>
+    <footer>
+        <p>&copy; Levi Alencar</video></p>
+
+    </footer>
+
+    <script src="AGEscript.js"></script>
+</body>
+</html>

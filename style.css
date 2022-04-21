@@ -41,18 +41,30 @@ hr {
     height: 500px;
     flex-direction: column;
     margin-left: max(36vw);
-
     
-    
-    
-    
- 
+   
 }
+
+#imglevi {
+
+    animation: fadeIn 2.5s;
+
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 
 #buttondiv {
     padding-top: 10%;
     margin-bottom: -20%;
     color: #e9ffff;
+    
 }
 
 #pdiv {
@@ -113,7 +125,7 @@ hr {
 .jumbotron {
     max-width: 400px;
     max-height: 500px;
-    background-color: #243f3f;
+    background-color: transparent;
     color: #30c5c5;
     
     
@@ -136,3 +148,4 @@ hr {
     
     
 }
+
