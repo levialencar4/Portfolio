@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    background-image: linear-gradient(black, rgb(10, 8, 26))
+    background-image: linear-gradient(black, rgb(10, 8, 26));
+    font-family: 'Orelega One', cursive;
 }
 
 h1 {
@@ -41,6 +42,8 @@ hr {
     height: 500px;
     flex-direction: column;
     margin-left: max(36vw);
+    box-shadow: 10px 10px rgb(16, 10, 44);
+    
     
    
 }
@@ -48,6 +51,7 @@ hr {
 #imglevi {
 
     animation: fadeIn 2.5s;
+    ;
 
 }
 
@@ -149,3 +153,8 @@ hr {
     
 }
 
+#seconddiv {
+    color: white;
+    font-size: 20px;
+
+}
